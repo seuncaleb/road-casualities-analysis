@@ -87,14 +87,7 @@ The model performed well for the dominant nearside class but struggled with rare
 
 ---
 
-## File Structure
 
-```
-cs982-road-collision-analysis/
-├── cs982_Road_Casualities.ipynb    # Full analysis notebook
-├── cs982_coursework.pdf            # Written report with methodology and findings
-└── README.md                       # This file
-```
 
 > The raw data files (`dft-road-casualty-statistics-vehicle-2024.csv` and `2024_code_list.csv`) are not included due to file size. Download them from the DfT Road Safety Data portal linked above.
 
@@ -108,8 +101,4 @@ cs982-road-collision-analysis/
 - Vehicle type is the single strongest predictor of impact point in the classifier
 - Reversing manoeuvres and wall/fence contact objects are strongly associated with specific cluster profiles
 
----
 
-## Context
-
-Completed as part of **CS982 — Data Science with Python** at the University of Strathclyde. The dataset is publicly available from the UK government. All analysis was conducted independently.
