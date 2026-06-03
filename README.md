@@ -18,7 +18,7 @@ This project takes a data-driven approach to that question. Using vehicle-level 
 
 ## Dataset
 
-**Source:** [Department for Transport — Road Safety Data](https://www.data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data)
+**Source:** [Department for Transport — Road Safety Open Data](https://www.gov.uk/government/statistical-data-sets/road-safety-open-data)
 
 **File used:** `dft-road-casualty-statistics-vehicle-2024.csv`
 
@@ -88,8 +88,14 @@ The model performed well for the dominant nearside class but struggled with rare
 ---
 
 
+```
+road-casualities-analysis/
+├── Road_Casualities.ipynb    # Full analysis notebook
+├── road_casualities.pdf      # Written report with methodology and findings
+└── README.md                 # This file
+```
 
-> The raw data files (`dft-road-casualty-statistics-vehicle-2024.csv` and `2024_code_list.csv`) are not included due to file size. Download them from the DfT Road Safety Data portal linked above.
+> The raw data files (`dft-road-casualty-statistics-vehicle-2024.csv` and `2024_code_list.csv`) are not included due to file size. Download them from the DfT Road Safety Open Data portal linked above.
 
 ---
 
